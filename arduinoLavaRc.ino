@@ -1,5 +1,5 @@
 /*
- Name:		Sony2Lava.ino
+ Name:		arduinoLavaRc.ino
  Created:	5/28/2017 9:50:44 PM
  Author:	lars
 */

@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Sony2Lava.ino" />
+    <None Include="arduinoLavaRc.ino" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.Sony2Lava.vsarduino.h">
+    <ClInclude Include="__vm\.arduinoLavaRc.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
