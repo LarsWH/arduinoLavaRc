@@ -3,7 +3,7 @@
  Created:	5/28/2017 9:50:44 PM
  Author:	LarsWH
 */
-#include <Arduino.h>
+#include <boarddefs.h>
 #include <IRremote.h>
 
 int OPEN = 8;
