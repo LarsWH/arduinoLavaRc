@@ -8,6 +8,7 @@
 
 int OPEN = 8;
 int CLOSE = 7;
+#define SILENCE 80
 
 IRsend irsend;
 
@@ -31,4 +32,5 @@ void loop() {
 	else {
 		irsend.sendRC5(0x00C, 12); // AUTO
 	}
+	delay(SILENCE);
 }
