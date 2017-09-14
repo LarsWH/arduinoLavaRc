@@ -21,7 +21,7 @@ void setup() {
 }
 
 void loop() {
-	bool toggle = false;
+	bool toggle = false; // Notice: toggle is never used. This is not in accordance with the spec.
 
 	if (!digitalRead(OPEN)) {
 		irsend.sendRC5ext(0x1B, 0x5F, toggle); // Open outwards
